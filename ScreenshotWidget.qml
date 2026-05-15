@@ -135,9 +135,9 @@ PluginComponent {
         let dmsStr = "";
         let execCmd;
         if (root.mode === "interactive") {
-            dmsStr = "dms screenshot";
+            dmsStr = "hype screenshot";
         } else {
-            dmsStr = "dms screenshot " + root.mode;
+            dmsStr = "hype screenshot " + root.mode;
         }
 
         if (root.showPointer) dmsStr += " --cursor on";
